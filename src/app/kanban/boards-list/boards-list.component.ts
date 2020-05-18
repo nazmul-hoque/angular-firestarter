@@ -39,7 +39,7 @@ export class BoardsListComponent implements OnInit, OnDestroy {
       if (result) {
         this.boardService.createBoard({
           title: result,
-          priority: this.boards.length
+          priority: this.boards? this.boards.length:0
         });
       }
     });

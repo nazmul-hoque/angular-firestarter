@@ -140,9 +140,9 @@
                   "replace": "src/environments/environment.ts",
                   "with": "src/environments/environment.prod.ts"
                 }
-              ]
-            ,              "optimization": true
-}
+              ],
+              "optimization": true
+            }
           }
         },
         "serve-ssr": {
@@ -174,5 +174,8 @@
       }
     }
   },
-  "defaultProject": "firestarter"
+  "defaultProject": "firestarter",
+  "cli": {
+    "analytics": "d03def30-337d-492f-83b8-baccb8c15076"
+  }
 }
